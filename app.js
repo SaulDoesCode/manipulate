@@ -12,5 +12,3 @@ var Manipulate = (function(){
     redefineFunction: redefineFunction
   }
 })();
-
-export Manipulate
