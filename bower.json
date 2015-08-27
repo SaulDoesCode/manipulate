@@ -1,0 +1,17 @@
+{
+  "name": "manipulate",
+  "version": "0.0.1",
+  "description": "Manipulate things in javascript",
+  "main": "app.js",
+  "authors": [
+    "Joe Gesualdo"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
