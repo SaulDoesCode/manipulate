@@ -1,6 +1,6 @@
 {
   "name": "manipulate",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Manipulate things in javascript",
   "main": "app.js",
   "authors": [
