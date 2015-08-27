@@ -13,3 +13,4 @@ var Manipulate = (function(){
   }
 })();
 
+export Manipulate
