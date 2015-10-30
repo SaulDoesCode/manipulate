@@ -1,6 +1,12 @@
 ## Manipulate
 > Override functions in Javascript
 
+
+## Install
+```
+$ bower install --save funcoverride
+```
+
 ## API
 
 ### Basic layout and usage
