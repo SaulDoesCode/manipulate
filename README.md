@@ -1,17 +1,12 @@
 ## Manipulate
-> Manipulate things in Javascript
-
-## Install
-```
-$ bower install --save manipulate
-```
+> Override functions in Javascript
 
 ## API
 
-### Methods
-#### .redefineFunction(functionString, newFunction, context)
+### Basic layout and usage
+#### OverrideFunction(funcName, Func, ContextObject)
 
-### .redefineFunction
+### OverrideFunction
 ```javascript
 var Person = (function(){
   function greeting(){console.log("Hello!")}
@@ -26,7 +21,7 @@ function rudeGreeting(){
 
 Person.greeting() // #=>  "Hello!"
 
-redefineFunction("Person.greeting", rudeGreeting, window)
+OverrideFunction("Person.greeting", rudeGreeting, window)
 
 Person.greeting() // #=>  "Sup, sucker!"
 ```
@@ -43,8 +38,14 @@ function reallyYell(){
 
 "Hello".yell() // #=>  "Hello!"
 
-redefineFunction("String.prototype.yell", reallyYell, window)
+OverrideFunction("String.prototype.yell", reallyYell, window)
 
 "Hello".yell() // #=>  "Hello!!!!!!!!"
+```
+##### Basic Error checking when you use wrong type of parameters
+
+```javascript
+  OverrideFunction(123, SomeFunc , MyContextObject);
+  // logs error : invalid funcName -> ensure it's a string
 ```
 
