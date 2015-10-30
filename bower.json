@@ -1,10 +1,11 @@
 {
-  "name": "manipulate",
-  "version": "0.0.4",
-  "description": "Manipulate things in javascript",
-  "main": "app.js",
+  "name": "funcoverrider",
+  "version": "0.0.5",
+  "description": "Override functions in javascript",
+  "main": "manip.js",
   "authors": [
-    "Joe Gesualdo"
+    "Joe Gesualdo - Original Author",
+    "Saul van der Walt - fork Author"
   ],
   "license": "MIT",
   "ignore": [
